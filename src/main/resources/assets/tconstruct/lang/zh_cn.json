@@ -2579,7 +2579,7 @@
   "tool_stat.tconstruct.projectile_damage": "弹射物力量：",
   "tool_stat.tconsturct.projectile_damage.description": "决定这个武器所发射的弹射物的基础伤害或力度",
 
-  "stat.tconstruct.extra": "附件",
+  "stat.tconstruct.extra": "绑定结",
   "stat.tconstruct.bowstring": "弓弦",
   "tool_stat.tconstruct.extra.no_stats": "无数据",
 
