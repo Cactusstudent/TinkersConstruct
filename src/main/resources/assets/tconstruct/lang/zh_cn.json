@@ -1528,7 +1528,7 @@
   "material.tconstruct.amethyst_bronze": "紫水晶青铜",
   "material.tconstruct.amethyst_bronze.flavor": "别和青铜搞混了。",
   "material.tconstruct.amethyst_bronze.encyclopedia": "挖掘不需要工具收集的方块时，每级挖掘速度+0.5，工具种类不匹配时也有效",
-  "material.tconstruct.amethyst_bronze.ranged": "每级+0.1初速度，但同时限定箭矢出射方向；前三级分别将方向限定为32、16、8向",
+  "material.tconstruct.amethyst_bronze.ranged": "每级初速度+0.1，但同时限定箭矢出射方向；前三级分别将方向限定为32、16、8向",
 
   "material.tconstruct.pig_iron": "生铁",
   "material.tconstruct.pig_iron.flavor": "这是最强材料，不接受反驳。",
