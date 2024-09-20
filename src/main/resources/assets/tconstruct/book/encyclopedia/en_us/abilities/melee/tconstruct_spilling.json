@@ -12,7 +12,7 @@
   "tool_filter": "tconstruct:modifiable/held",
   "effects": [
     "No max level",
-    "Requires 1 ability slot",
+    "Requires 1 ability slot per level",
     "Fill by using tool on a fluid tank"
   ]
 }

@@ -17,6 +17,7 @@ import slimeknights.tconstruct.tools.stats.LimbMaterialStats;
 import javax.annotation.Nullable;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
@@ -175,7 +176,7 @@ public abstract class AbstractPartSpriteProvider {
   @RequiredArgsConstructor(access = AccessLevel.PRIVATE)
   protected class ToolSpriteBuilder {
     private final ResourceLocation name;
-    private final Map<String, MaterialStatsId> parts = new HashMap<>();
+    private final Map<String, MaterialStatsId> parts = new LinkedHashMap<>();
     private boolean hasLarge = false;
 
     /** Adds a part to the tool */

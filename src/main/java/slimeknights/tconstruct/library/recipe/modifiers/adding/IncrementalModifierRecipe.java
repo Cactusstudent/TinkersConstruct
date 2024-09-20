@@ -70,8 +70,7 @@ public class IncrementalModifierRecipe extends AbstractModifierRecipe {
 
   @Override
   public ValidatedResult getValidatedResult(ITinkerStationContainer inv) {
-    ItemStack tinkerable = inv.getTinkerableStack();
-    ToolStack tool = ToolStack.from(tinkerable);
+    ToolStack tool = inv.getTinkerable();
 
     // if the tool lacks the modifier, treat current as maxLevel, means we will add a new level
     ModifierId modifier = result.getId();
@@ -121,7 +120,7 @@ public class IncrementalModifierRecipe extends AbstractModifierRecipe {
     }
 
     // successfully added the modifier
-    return ValidatedResult.success(tool.createStack(Math.min(tinkerable.getCount(), shrinkToolSlotBy())));
+    return ValidatedResult.success(tool.createStack(Math.min(inv.getTinkerableSize(), shrinkToolSlotBy())));
   }
 
   /**
@@ -137,7 +136,8 @@ public class IncrementalModifierRecipe extends AbstractModifierRecipe {
       return;
     }
 
-    ToolStack inputTool = ToolStack.from(inv.getTinkerableStack());
+    // fetch the differences
+    ToolStack inputTool = inv.getTinkerable();
     ToolStack resultTool = ToolStack.from(result);
 
     // start by checking amount
@@ -278,7 +278,9 @@ public class IncrementalModifierRecipe extends AbstractModifierRecipe {
     if (leftoverAmount > 0) {
       itemsNeeded++;
       if (!leftover.isEmpty()) {
-        inv.giveItem(ItemHandlerHelper.copyStackWithSize(leftover, leftoverAmount * leftover.getCount()));
+        // leftoverAmount refers to how many we need to that is does not fit cleanly into amountPerInput
+        // but we want to return the amount we did not use, hence the subtraction
+        inv.giveItem(ItemHandlerHelper.copyStackWithSize(leftover, (amountPerInput - leftoverAmount) * leftover.getCount()));
       }
     }
     for (int i = 0; i < inv.getInputCount(); i++) {

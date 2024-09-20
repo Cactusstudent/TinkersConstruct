@@ -1,0 +1,11 @@
+{
+  "type": "tconstruct:item_part_builder",
+  "pattern": "tconstruct:repair_kit",
+  "pattern_item": {
+    "tag": "forge:sand/red"
+  },
+  "result": {
+    "item": "tconstruct:repair_kit_red_sand_cast",
+    "count": 4
+  }
+}

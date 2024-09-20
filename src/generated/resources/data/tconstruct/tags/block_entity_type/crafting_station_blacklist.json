@@ -1,6 +1,10 @@
 {
   "replace": false,
   "values": [
+    "minecraft:furnace",
+    "minecraft:blast_furnace",
+    "minecraft:smoker",
+    "minecraft:brewing_stand",
     "tconstruct:crafting_station",
     "tconstruct:tinker_station",
     "tconstruct:part_builder",
@@ -9,6 +13,8 @@
     "tconstruct:cast_chest",
     "tconstruct:basin",
     "tconstruct:table",
-    "tconstruct:smeltery"
+    "tconstruct:melter",
+    "tconstruct:smeltery",
+    "tconstruct:foundry"
   ]
 }

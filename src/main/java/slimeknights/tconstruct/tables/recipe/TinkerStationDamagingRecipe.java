@@ -49,11 +49,12 @@ public class TinkerStationDamagingRecipe implements ITinkerStationRecipe {
 
   @Override
   public ValidatedResult getValidatedResult(ITinkerStationContainer inv) {
-    if (ToolDamageUtil.isBroken(inv.getTinkerableStack())) {
+    ToolStack tool = inv.getTinkerable();
+    if (tool.isBroken()) {
       return BROKEN;
     }
     // simply damage the tool directly
-    ToolStack tool = ToolStack.copyFrom(inv.getTinkerableStack());
+    tool = tool.copy();
     int maxDamage = IncrementalModifierRecipe.getAvailableAmount(inv, ingredient, damageAmount);
     ToolDamageUtil.directDamage(tool, maxDamage, null, inv.getTinkerableStack());
     return ValidatedResult.success(tool.createStack());
@@ -67,7 +68,7 @@ public class TinkerStationDamagingRecipe implements ITinkerStationRecipe {
   @Override
   public void updateInputs(ItemStack result, IMutableTinkerStationContainer inv, boolean isServer) {
     // how much did we actually consume?
-    int damageTaken = ToolStack.from(result).getDamage() - ToolStack.from(inv.getTinkerableStack()).getDamage();
+    int damageTaken = ToolStack.from(result).getDamage() - inv.getTinkerable().getDamage();
     IncrementalModifierRecipe.updateInputs(inv, ingredient, damageTaken, damageAmount, ItemStack.EMPTY);
   }
 

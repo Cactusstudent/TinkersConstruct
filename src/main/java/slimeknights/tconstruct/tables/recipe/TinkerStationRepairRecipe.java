@@ -121,7 +121,7 @@ public class TinkerStationRepairRecipe implements ITinkerStationRecipe {
 
     // validate materials
     MaterialId material = null;
-    ToolStack tool = ToolStack.from(tinkerable);
+    ToolStack tool = inv.getTinkerable();
     // not sure why you are tagging a tool with no parts as multipart, you are wrong and should feel ashamed of yourself
     if (!tool.getDefinition().isMultipart()) {
       return false;
@@ -161,7 +161,7 @@ public class TinkerStationRepairRecipe implements ITinkerStationRecipe {
 
   @Override
   public ValidatedResult getValidatedResult(ITinkerStationContainer inv) {
-    ToolStack tool = ToolStack.from(inv.getTinkerableStack());
+    ToolStack tool = inv.getTinkerable();
     if (tool.getDefinition() == ToolDefinition.EMPTY) {
       return ValidatedResult.PASS;
     }

@@ -10,7 +10,7 @@
     }
   ],
   "material": {
-    "item": "tconstruct:blank_red_sand_cast"
+    "tag": "tconstruct:casts/red_sand"
   },
   "pattern": {
     "tag": "forge:wires"

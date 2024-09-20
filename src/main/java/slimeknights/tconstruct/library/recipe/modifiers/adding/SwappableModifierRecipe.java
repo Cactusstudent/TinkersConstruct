@@ -50,8 +50,7 @@ public class SwappableModifierRecipe extends ModifierRecipe {
      */
   @Override
   public ValidatedResult getValidatedResult(ITinkerStationContainer inv) {
-    ItemStack tinkerable = inv.getTinkerableStack();
-    ToolStack tool = ToolStack.from(tinkerable);
+    ToolStack tool = inv.getTinkerable();
 
     // if the tool has the modifier already, can skip most requirements
     ModifierId modifier = result.getId();
@@ -101,7 +100,7 @@ public class SwappableModifierRecipe extends ModifierRecipe {
       return toolValidation;
     }
 
-    return ValidatedResult.success(tool.createStack(Math.min(tinkerable.getCount(), shrinkToolSlotBy())));
+    return ValidatedResult.success(tool.createStack(Math.min(inv.getTinkerableSize(), shrinkToolSlotBy())));
   }
 
   @Override

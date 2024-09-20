@@ -137,7 +137,7 @@ public class ModifierRecipeProvider extends BaseRecipeProvider {
 
     // jeweled apple
     ItemCastingRecipeBuilder.tableRecipe(TinkerCommons.jeweledApple)
-                            .setFluidAndTime(TinkerFluids.moltenDiamond, false, FluidValues.GEM * 4)
+                            .setFluidAndTime(TinkerFluids.moltenDiamond, false, FluidValues.GEM * 2)
                             .setCast(Items.APPLE, true)
                             .save(consumer, prefix(TinkerCommons.jeweledApple, folder));
 
@@ -733,7 +733,6 @@ public class ModifierRecipeProvider extends BaseRecipeProvider {
                                     .setTools(ingredientFromTags(TinkerTags.Items.WORN_ARMOR)) // revitalizing would suck on an item you constantly change
                                     .setInput(TinkerCommons.jeweledApple, 1, 2)
                                     .setSlots(SlotType.DEFENSE, 1)
-                                    .setMaxLevel(5)
                                     .saveSalvage(consumer, prefix(ModifierIds.revitalizing, defenseSalvage))
                                     .save(consumer, prefix(ModifierIds.revitalizing, defenseFolder));
 
@@ -1199,7 +1198,12 @@ public class ModifierRecipeProvider extends BaseRecipeProvider {
                          .addInput(Tags.Items.INGOTS_COPPER)
                          .addInput(Tags.Items.INGOTS_COPPER)
                          .setSlots(SlotType.ABILITY, 1)
-                         .setTools(ingredientFromTags(TinkerTags.Items.MELEE, TinkerTags.Items.CHESTPLATES, TinkerTags.Items.STAFFS, TinkerTags.Items.SHIELDS))
+                         .setTools(CompoundIngredient.of(
+                           Ingredient.of(TinkerTags.Items.MELEE),
+                           Ingredient.of(TinkerTags.Items.CHESTPLATES),
+                           Ingredient.of(TinkerTags.Items.SHIELDS),
+                           IntersectionIngredient.of(Ingredient.of(TinkerTags.Items.DURABILITY), Ingredient.of(TinkerTags.Items.STAFFS))
+                         ))
                          .saveSalvage(consumer, prefix(TinkerModifiers.spilling, abilitySalvage))
                          .save(consumer, prefix(TinkerModifiers.spilling, abilityFolder));
     Ingredient durabilityRightClick = IntersectionIngredient.of(Ingredient.of(TinkerTags.Items.DURABILITY), Ingredient.of(TinkerTags.Items.INTERACTABLE_RIGHT));
@@ -1376,7 +1380,9 @@ public class ModifierRecipeProvider extends BaseRecipeProvider {
                          .saveSalvage(consumer, prefix(TinkerModifiers.dualWielding, abilitySalvage))
                          .save(consumer, prefix(TinkerModifiers.dualWielding, abilityFolder));
     ModifierRecipeBuilder.modifier(TinkerModifiers.blocking)
-                         .setTools(DifferenceIngredient.of(ingredientFromTags(TinkerTags.Items.INTERACTABLE_RIGHT, TinkerTags.Items.BOWS), Ingredient.of(TinkerTags.Items.PARRY)))
+                         .setTools(DifferenceIngredient.of(
+                           IntersectionIngredient.of(ingredientFromTags(TinkerTags.Items.INTERACTABLE_RIGHT, TinkerTags.Items.BOWS), Ingredient.of(TinkerTags.Items.DURABILITY)),
+                           Ingredient.of(TinkerTags.Items.PARRY)))
                          .addInput(ItemTags.PLANKS)
                          .addInput(TinkerMaterials.cobalt.getIngotTag())
                          .addInput(ItemTags.PLANKS)

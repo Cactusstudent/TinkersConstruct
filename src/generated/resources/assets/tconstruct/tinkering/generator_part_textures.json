@@ -170,10 +170,6 @@
       "statType": "tconstruct:head"
     },
     {
-      "path": "tconstruct:item/tool/pickaxe/binding",
-      "statType": "tconstruct:extra"
-    },
-    {
       "path": "tconstruct:item/tool/pickaxe/broken_head",
       "statType": "tconstruct:head"
     },
@@ -182,15 +178,11 @@
       "statType": "tconstruct:handle"
     },
     {
+      "path": "tconstruct:item/tool/pickaxe/binding",
+      "statType": "tconstruct:extra"
+    },
+    {
       "path": "tconstruct:item/tool/sledge_hammer/head",
-      "statType": "tconstruct:head"
-    },
-    {
-      "path": "tconstruct:item/tool/sledge_hammer/broken_front",
-      "statType": "tconstruct:head"
-    },
-    {
-      "path": "tconstruct:item/tool/sledge_hammer/back",
       "statType": "tconstruct:head"
     },
     {
@@ -198,11 +190,7 @@
       "statType": "tconstruct:head"
     },
     {
-      "path": "tconstruct:item/tool/sledge_hammer/handle",
-      "statType": "tconstruct:handle"
-    },
-    {
-      "path": "tconstruct:item/tool/sledge_hammer/front",
+      "path": "tconstruct:item/tool/sledge_hammer/back",
       "statType": "tconstruct:head"
     },
     {
@@ -210,15 +198,19 @@
       "statType": "tconstruct:head"
     },
     {
+      "path": "tconstruct:item/tool/sledge_hammer/front",
+      "statType": "tconstruct:head"
+    },
+    {
+      "path": "tconstruct:item/tool/sledge_hammer/broken_front",
+      "statType": "tconstruct:head"
+    },
+    {
+      "path": "tconstruct:item/tool/sledge_hammer/handle",
+      "statType": "tconstruct:handle"
+    },
+    {
       "path": "tconstruct:item/tool/sledge_hammer/large/head",
-      "statType": "tconstruct:head"
-    },
-    {
-      "path": "tconstruct:item/tool/sledge_hammer/large/broken_front",
-      "statType": "tconstruct:head"
-    },
-    {
-      "path": "tconstruct:item/tool/sledge_hammer/large/back",
       "statType": "tconstruct:head"
     },
     {
@@ -226,11 +218,7 @@
       "statType": "tconstruct:head"
     },
     {
-      "path": "tconstruct:item/tool/sledge_hammer/large/handle",
-      "statType": "tconstruct:handle"
-    },
-    {
-      "path": "tconstruct:item/tool/sledge_hammer/large/front",
+      "path": "tconstruct:item/tool/sledge_hammer/large/back",
       "statType": "tconstruct:head"
     },
     {
@@ -238,15 +226,19 @@
       "statType": "tconstruct:head"
     },
     {
+      "path": "tconstruct:item/tool/sledge_hammer/large/front",
+      "statType": "tconstruct:head"
+    },
+    {
+      "path": "tconstruct:item/tool/sledge_hammer/large/broken_front",
+      "statType": "tconstruct:head"
+    },
+    {
+      "path": "tconstruct:item/tool/sledge_hammer/large/handle",
+      "statType": "tconstruct:handle"
+    },
+    {
       "path": "tconstruct:item/tool/vein_hammer/head",
-      "statType": "tconstruct:head"
-    },
-    {
-      "path": "tconstruct:item/tool/vein_hammer/broken_front",
-      "statType": "tconstruct:head"
-    },
-    {
-      "path": "tconstruct:item/tool/vein_hammer/back",
       "statType": "tconstruct:head"
     },
     {
@@ -254,23 +246,23 @@
       "statType": "tconstruct:head"
     },
     {
-      "path": "tconstruct:item/tool/vein_hammer/handle",
-      "statType": "tconstruct:handle"
+      "path": "tconstruct:item/tool/vein_hammer/back",
+      "statType": "tconstruct:head"
     },
     {
       "path": "tconstruct:item/tool/vein_hammer/front",
       "statType": "tconstruct:head"
     },
     {
+      "path": "tconstruct:item/tool/vein_hammer/broken_front",
+      "statType": "tconstruct:head"
+    },
+    {
+      "path": "tconstruct:item/tool/vein_hammer/handle",
+      "statType": "tconstruct:handle"
+    },
+    {
       "path": "tconstruct:item/tool/vein_hammer/large/head",
-      "statType": "tconstruct:head"
-    },
-    {
-      "path": "tconstruct:item/tool/vein_hammer/large/broken_front",
-      "statType": "tconstruct:head"
-    },
-    {
-      "path": "tconstruct:item/tool/vein_hammer/large/back",
       "statType": "tconstruct:head"
     },
     {
@@ -278,15 +270,23 @@
       "statType": "tconstruct:head"
     },
     {
-      "path": "tconstruct:item/tool/vein_hammer/large/handle",
-      "statType": "tconstruct:handle"
+      "path": "tconstruct:item/tool/vein_hammer/large/back",
+      "statType": "tconstruct:head"
     },
     {
       "path": "tconstruct:item/tool/vein_hammer/large/front",
       "statType": "tconstruct:head"
     },
     {
-      "path": "tconstruct:item/tool/mattock/pick",
+      "path": "tconstruct:item/tool/vein_hammer/large/broken_front",
+      "statType": "tconstruct:head"
+    },
+    {
+      "path": "tconstruct:item/tool/vein_hammer/large/handle",
+      "statType": "tconstruct:handle"
+    },
+    {
+      "path": "tconstruct:item/tool/mattock/axe",
       "statType": "tconstruct:head"
     },
     {
@@ -294,7 +294,7 @@
       "statType": "tconstruct:head"
     },
     {
-      "path": "tconstruct:item/tool/mattock/axe",
+      "path": "tconstruct:item/tool/mattock/pick",
       "statType": "tconstruct:head"
     },
     {
@@ -302,11 +302,11 @@
       "statType": "tconstruct:head"
     },
     {
-      "path": "tconstruct:item/tool/pickadze/broken_axe",
+      "path": "tconstruct:item/tool/pickadze/axe",
       "statType": "tconstruct:head"
     },
     {
-      "path": "tconstruct:item/tool/pickadze/axe",
+      "path": "tconstruct:item/tool/pickadze/broken_axe",
       "statType": "tconstruct:head"
     },
     {
@@ -314,15 +314,11 @@
       "statType": "tconstruct:head"
     },
     {
-      "path": "tconstruct:item/tool/excavator/grip",
-      "statType": "tconstruct:handle"
-    },
-    {
-      "path": "tconstruct:item/tool/excavator/binding",
+      "path": "tconstruct:item/tool/excavator/broken_head",
       "statType": "tconstruct:head"
     },
     {
-      "path": "tconstruct:item/tool/excavator/broken_head",
+      "path": "tconstruct:item/tool/excavator/binding",
       "statType": "tconstruct:head"
     },
     {
@@ -330,15 +326,11 @@
       "statType": "tconstruct:handle"
     },
     {
-      "path": "tconstruct:item/tool/excavator/large/head",
-      "statType": "tconstruct:head"
-    },
-    {
-      "path": "tconstruct:item/tool/excavator/large/grip",
+      "path": "tconstruct:item/tool/excavator/grip",
       "statType": "tconstruct:handle"
     },
     {
-      "path": "tconstruct:item/tool/excavator/large/binding",
+      "path": "tconstruct:item/tool/excavator/large/head",
       "statType": "tconstruct:head"
     },
     {
@@ -346,7 +338,15 @@
       "statType": "tconstruct:head"
     },
     {
+      "path": "tconstruct:item/tool/excavator/large/binding",
+      "statType": "tconstruct:head"
+    },
+    {
       "path": "tconstruct:item/tool/excavator/large/handle",
+      "statType": "tconstruct:handle"
+    },
+    {
+      "path": "tconstruct:item/tool/excavator/large/grip",
       "statType": "tconstruct:handle"
     },
     {
@@ -354,27 +354,15 @@
       "statType": "tconstruct:head"
     },
     {
-      "path": "tconstruct:item/tool/hand_axe/binding",
-      "statType": "tconstruct:extra"
-    },
-    {
       "path": "tconstruct:item/tool/hand_axe/broken_head",
       "statType": "tconstruct:head"
     },
     {
-      "path": "tconstruct:item/tool/broad_axe/back",
-      "statType": "tconstruct:head"
-    },
-    {
-      "path": "tconstruct:item/tool/broad_axe/binding",
+      "path": "tconstruct:item/tool/hand_axe/binding",
       "statType": "tconstruct:extra"
     },
     {
-      "path": "tconstruct:item/tool/broad_axe/handle",
-      "statType": "tconstruct:handle"
-    },
-    {
-      "path": "tconstruct:item/tool/broad_axe/broken_back",
+      "path": "tconstruct:item/tool/broad_axe/blade",
       "statType": "tconstruct:head"
     },
     {
@@ -382,23 +370,23 @@
       "statType": "tconstruct:head"
     },
     {
-      "path": "tconstruct:item/tool/broad_axe/blade",
+      "path": "tconstruct:item/tool/broad_axe/back",
       "statType": "tconstruct:head"
     },
     {
-      "path": "tconstruct:item/tool/broad_axe/large/back",
+      "path": "tconstruct:item/tool/broad_axe/broken_back",
       "statType": "tconstruct:head"
     },
     {
-      "path": "tconstruct:item/tool/broad_axe/large/binding",
-      "statType": "tconstruct:extra"
-    },
-    {
-      "path": "tconstruct:item/tool/broad_axe/large/handle",
+      "path": "tconstruct:item/tool/broad_axe/handle",
       "statType": "tconstruct:handle"
     },
     {
-      "path": "tconstruct:item/tool/broad_axe/large/broken_back",
+      "path": "tconstruct:item/tool/broad_axe/binding",
+      "statType": "tconstruct:extra"
+    },
+    {
+      "path": "tconstruct:item/tool/broad_axe/large/blade",
       "statType": "tconstruct:head"
     },
     {
@@ -406,11 +394,27 @@
       "statType": "tconstruct:head"
     },
     {
-      "path": "tconstruct:item/tool/broad_axe/large/blade",
+      "path": "tconstruct:item/tool/broad_axe/large/back",
       "statType": "tconstruct:head"
     },
     {
+      "path": "tconstruct:item/tool/broad_axe/large/broken_back",
+      "statType": "tconstruct:head"
+    },
+    {
+      "path": "tconstruct:item/tool/broad_axe/large/handle",
+      "statType": "tconstruct:handle"
+    },
+    {
+      "path": "tconstruct:item/tool/broad_axe/large/binding",
+      "statType": "tconstruct:extra"
+    },
+    {
       "path": "tconstruct:item/tool/kama/head",
+      "statType": "tconstruct:head"
+    },
+    {
+      "path": "tconstruct:item/tool/kama/broken_head",
       "statType": "tconstruct:head"
     },
     {
@@ -418,16 +422,8 @@
       "statType": "tconstruct:extra"
     },
     {
-      "path": "tconstruct:item/tool/kama/broken_head",
-      "statType": "tconstruct:head"
-    },
-    {
       "path": "tconstruct:item/tool/scythe/head",
       "statType": "tconstruct:head"
-    },
-    {
-      "path": "tconstruct:item/tool/scythe/binding",
-      "statType": "tconstruct:extra"
     },
     {
       "path": "tconstruct:item/tool/scythe/broken_head",
@@ -442,12 +438,12 @@
       "statType": "tconstruct:handle"
     },
     {
-      "path": "tconstruct:item/tool/scythe/large/head",
-      "statType": "tconstruct:head"
+      "path": "tconstruct:item/tool/scythe/binding",
+      "statType": "tconstruct:extra"
     },
     {
-      "path": "tconstruct:item/tool/scythe/large/binding",
-      "statType": "tconstruct:extra"
+      "path": "tconstruct:item/tool/scythe/large/head",
+      "statType": "tconstruct:head"
     },
     {
       "path": "tconstruct:item/tool/scythe/large/broken_head",
@@ -462,15 +458,27 @@
       "statType": "tconstruct:handle"
     },
     {
-      "path": "tconstruct:item/tool/dagger/crossguard",
-      "statType": "tconstruct:handle"
+      "path": "tconstruct:item/tool/scythe/large/binding",
+      "statType": "tconstruct:extra"
+    },
+    {
+      "path": "tconstruct:item/tool/dagger/blade",
+      "statType": "tconstruct:head"
     },
     {
       "path": "tconstruct:item/tool/dagger/broken_blade",
       "statType": "tconstruct:head"
     },
     {
-      "path": "tconstruct:item/tool/dagger/blade",
+      "path": "tconstruct:item/tool/dagger/crossguard",
+      "statType": "tconstruct:handle"
+    },
+    {
+      "path": "tconstruct:item/tool/sword/blade",
+      "statType": "tconstruct:head"
+    },
+    {
+      "path": "tconstruct:item/tool/sword/broken_blade",
       "statType": "tconstruct:head"
     },
     {
@@ -482,27 +490,15 @@
       "statType": "tconstruct:handle"
     },
     {
-      "path": "tconstruct:item/tool/sword/broken_blade",
-      "statType": "tconstruct:head"
-    },
-    {
-      "path": "tconstruct:item/tool/sword/blade",
-      "statType": "tconstruct:head"
-    },
-    {
       "path": "tconstruct:item/tool/cleaver/head",
       "statType": "tconstruct:head"
     },
     {
-      "path": "tconstruct:item/tool/cleaver/shield",
+      "path": "tconstruct:item/tool/cleaver/broken_head",
       "statType": "tconstruct:head"
     },
     {
-      "path": "tconstruct:item/tool/cleaver/guard",
-      "statType": "tconstruct:handle"
-    },
-    {
-      "path": "tconstruct:item/tool/cleaver/broken_head",
+      "path": "tconstruct:item/tool/cleaver/shield",
       "statType": "tconstruct:head"
     },
     {
@@ -514,19 +510,19 @@
       "statType": "tconstruct:handle"
     },
     {
+      "path": "tconstruct:item/tool/cleaver/guard",
+      "statType": "tconstruct:handle"
+    },
+    {
       "path": "tconstruct:item/tool/cleaver/large/head",
       "statType": "tconstruct:head"
     },
     {
-      "path": "tconstruct:item/tool/cleaver/large/shield",
+      "path": "tconstruct:item/tool/cleaver/large/broken_head",
       "statType": "tconstruct:head"
     },
     {
-      "path": "tconstruct:item/tool/cleaver/large/guard",
-      "statType": "tconstruct:handle"
-    },
-    {
-      "path": "tconstruct:item/tool/cleaver/large/broken_head",
+      "path": "tconstruct:item/tool/cleaver/large/shield",
       "statType": "tconstruct:head"
     },
     {
@@ -538,19 +534,27 @@
       "statType": "tconstruct:handle"
     },
     {
-      "path": "tconstruct:item/tool/crossbow/limb",
-      "statType": "tconstruct:limb"
+      "path": "tconstruct:item/tool/cleaver/large/guard",
+      "statType": "tconstruct:handle"
     },
     {
-      "path": "tconstruct:item/tool/crossbow/bowstring",
-      "statType": "tconstruct:bowstring"
+      "path": "tconstruct:item/tool/crossbow/limb",
+      "statType": "tconstruct:limb"
     },
     {
       "path": "tconstruct:item/tool/crossbow/body",
       "statType": "tconstruct:grip"
     },
     {
+      "path": "tconstruct:item/tool/crossbow/bowstring",
+      "statType": "tconstruct:bowstring"
+    },
+    {
       "path": "tconstruct:item/tool/crossbow/bowstring_1",
+      "statType": "tconstruct:bowstring"
+    },
+    {
+      "path": "tconstruct:item/tool/crossbow/bowstring_2",
       "statType": "tconstruct:bowstring"
     },
     {
@@ -558,8 +562,36 @@
       "statType": "tconstruct:bowstring"
     },
     {
-      "path": "tconstruct:item/tool/crossbow/bowstring_2",
-      "statType": "tconstruct:bowstring"
+      "path": "tconstruct:item/tool/longbow/limb_bottom",
+      "statType": "tconstruct:limb"
+    },
+    {
+      "path": "tconstruct:item/tool/longbow/limb_bottom_1",
+      "statType": "tconstruct:limb"
+    },
+    {
+      "path": "tconstruct:item/tool/longbow/limb_bottom_2",
+      "statType": "tconstruct:limb"
+    },
+    {
+      "path": "tconstruct:item/tool/longbow/limb_bottom_3",
+      "statType": "tconstruct:limb"
+    },
+    {
+      "path": "tconstruct:item/tool/longbow/limb_top",
+      "statType": "tconstruct:limb"
+    },
+    {
+      "path": "tconstruct:item/tool/longbow/limb_top_1",
+      "statType": "tconstruct:limb"
+    },
+    {
+      "path": "tconstruct:item/tool/longbow/limb_top_2",
+      "statType": "tconstruct:limb"
+    },
+    {
+      "path": "tconstruct:item/tool/longbow/limb_top_3",
+      "statType": "tconstruct:limb"
     },
     {
       "path": "tconstruct:item/tool/longbow/grip",
@@ -570,52 +602,52 @@
       "statType": "tconstruct:bowstring"
     },
     {
-      "path": "tconstruct:item/tool/longbow/limb_bottom",
-      "statType": "tconstruct:limb"
-    },
-    {
-      "path": "tconstruct:item/tool/longbow/limb_top",
-      "statType": "tconstruct:limb"
-    },
-    {
       "path": "tconstruct:item/tool/longbow/broken_bowstring",
       "statType": "tconstruct:bowstring"
-    },
-    {
-      "path": "tconstruct:item/tool/longbow/limb_top_2",
-      "statType": "tconstruct:limb"
-    },
-    {
-      "path": "tconstruct:item/tool/longbow/limb_bottom_3",
-      "statType": "tconstruct:limb"
-    },
-    {
-      "path": "tconstruct:item/tool/longbow/limb_top_1",
-      "statType": "tconstruct:limb"
     },
     {
       "path": "tconstruct:item/tool/longbow/bowstring_1",
       "statType": "tconstruct:bowstring"
     },
     {
-      "path": "tconstruct:item/tool/longbow/limb_bottom_2",
-      "statType": "tconstruct:limb"
+      "path": "tconstruct:item/tool/longbow/bowstring_2",
+      "statType": "tconstruct:bowstring"
     },
     {
       "path": "tconstruct:item/tool/longbow/bowstring_3",
       "statType": "tconstruct:bowstring"
     },
     {
-      "path": "tconstruct:item/tool/longbow/limb_bottom_1",
+      "path": "tconstruct:item/tool/longbow/large/limb_bottom",
       "statType": "tconstruct:limb"
     },
     {
-      "path": "tconstruct:item/tool/longbow/limb_top_3",
+      "path": "tconstruct:item/tool/longbow/large/limb_bottom_1",
       "statType": "tconstruct:limb"
     },
     {
-      "path": "tconstruct:item/tool/longbow/bowstring_2",
-      "statType": "tconstruct:bowstring"
+      "path": "tconstruct:item/tool/longbow/large/limb_bottom_2",
+      "statType": "tconstruct:limb"
+    },
+    {
+      "path": "tconstruct:item/tool/longbow/large/limb_bottom_3",
+      "statType": "tconstruct:limb"
+    },
+    {
+      "path": "tconstruct:item/tool/longbow/large/limb_top",
+      "statType": "tconstruct:limb"
+    },
+    {
+      "path": "tconstruct:item/tool/longbow/large/limb_top_1",
+      "statType": "tconstruct:limb"
+    },
+    {
+      "path": "tconstruct:item/tool/longbow/large/limb_top_2",
+      "statType": "tconstruct:limb"
+    },
+    {
+      "path": "tconstruct:item/tool/longbow/large/limb_top_3",
+      "statType": "tconstruct:limb"
     },
     {
       "path": "tconstruct:item/tool/longbow/large/grip",
@@ -626,51 +658,19 @@
       "statType": "tconstruct:bowstring"
     },
     {
-      "path": "tconstruct:item/tool/longbow/large/limb_bottom",
-      "statType": "tconstruct:limb"
-    },
-    {
-      "path": "tconstruct:item/tool/longbow/large/limb_top",
-      "statType": "tconstruct:limb"
-    },
-    {
       "path": "tconstruct:item/tool/longbow/large/broken_bowstring",
       "statType": "tconstruct:bowstring"
-    },
-    {
-      "path": "tconstruct:item/tool/longbow/large/limb_top_2",
-      "statType": "tconstruct:limb"
-    },
-    {
-      "path": "tconstruct:item/tool/longbow/large/limb_bottom_3",
-      "statType": "tconstruct:limb"
-    },
-    {
-      "path": "tconstruct:item/tool/longbow/large/limb_top_1",
-      "statType": "tconstruct:limb"
     },
     {
       "path": "tconstruct:item/tool/longbow/large/bowstring_1",
       "statType": "tconstruct:bowstring"
     },
     {
-      "path": "tconstruct:item/tool/longbow/large/limb_bottom_2",
-      "statType": "tconstruct:limb"
-    },
-    {
-      "path": "tconstruct:item/tool/longbow/large/bowstring_3",
+      "path": "tconstruct:item/tool/longbow/large/bowstring_2",
       "statType": "tconstruct:bowstring"
     },
     {
-      "path": "tconstruct:item/tool/longbow/large/limb_bottom_1",
-      "statType": "tconstruct:limb"
-    },
-    {
-      "path": "tconstruct:item/tool/longbow/large/limb_top_3",
-      "statType": "tconstruct:limb"
-    },
-    {
-      "path": "tconstruct:item/tool/longbow/large/bowstring_2",
+      "path": "tconstruct:item/tool/longbow/large/bowstring_3",
       "statType": "tconstruct:bowstring"
     }
   ]

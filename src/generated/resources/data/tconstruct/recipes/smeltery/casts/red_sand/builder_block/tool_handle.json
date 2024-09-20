@@ -1,0 +1,11 @@
+{
+  "type": "tconstruct:item_part_builder",
+  "pattern": "tconstruct:tool_handle",
+  "pattern_item": {
+    "tag": "forge:sand/red"
+  },
+  "result": {
+    "item": "tconstruct:tool_handle_red_sand_cast",
+    "count": 4
+  }
+}

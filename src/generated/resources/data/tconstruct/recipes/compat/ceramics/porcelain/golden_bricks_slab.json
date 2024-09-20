@@ -14,11 +14,5 @@
     "amount": 500
   },
   "temperature": 700,
-  "time": 76,
-  "byproducts": [
-    {
-      "fluid": "minecraft:empty",
-      "amount": 0
-    }
-  ]
+  "time": 76
 }

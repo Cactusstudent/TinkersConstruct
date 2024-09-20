@@ -60,8 +60,7 @@ public class OverslimeModifierRecipe implements ITinkerStationRecipe, IDisplayMo
 
   @Override
   public ValidatedResult getValidatedResult(ITinkerStationContainer inv) {
-    ItemStack tinkerable = inv.getTinkerableStack();
-    ToolStack tool = ToolStack.from(tinkerable);
+    ToolStack tool = inv.getTinkerable();
     OverslimeModifier overslime = TinkerModifiers.overslime.get();
     ModifierId overslimeId = TinkerModifiers.overslime.getId();
     // if the tool lacks true overslime, add overslime
@@ -87,7 +86,7 @@ public class OverslimeModifierRecipe implements ITinkerStationRecipe, IDisplayMo
     // see how much value is available, update overslime to the max possible
     int available = IncrementalModifierRecipe.getAvailableAmount(inv, ingredient, restoreAmount);
     overslime.addOverslime(tool, available);
-    return ValidatedResult.success(tool.createStack(Math.min(tinkerable.getCount(), shrinkToolSlotBy())));
+    return ValidatedResult.success(tool.createStack(Math.min(inv.getTinkerableSize(), shrinkToolSlotBy())));
   }
 
   /**
@@ -97,7 +96,7 @@ public class OverslimeModifierRecipe implements ITinkerStationRecipe, IDisplayMo
    */
   @Override
   public void updateInputs(ItemStack result, IMutableTinkerStationContainer inv, boolean isServer) {
-    ToolStack tool = ToolStack.from(inv.getTinkerableStack());
+    ToolStack tool = inv.getTinkerable();
     // if the original tool did not have overslime, its treated as having no slime
     int current = 0;
     OverslimeModifier overslime = TinkerModifiers.overslime.get();

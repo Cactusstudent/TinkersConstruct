@@ -32,6 +32,7 @@ public enum ModifierBookmarkIngredientRenderer implements IIngredientRenderer<Mo
     List<Component> list = new ArrayList<>();
     // not using the main method as that applies color
     list.add(new TranslatableComponent(WRAPPER_KEY, new TranslatableComponent(entry.getModifier().getTranslationKey())));
+    list.addAll(entry.getModifier().getDescriptionList());
     if (flag.isAdvanced()) {
       list.add((new TextComponent(entry.getId().toString())).withStyle(ChatFormatting.DARK_GRAY));
     }

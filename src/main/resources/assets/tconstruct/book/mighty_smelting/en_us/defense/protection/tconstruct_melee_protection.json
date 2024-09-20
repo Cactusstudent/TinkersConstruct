@@ -9,6 +9,6 @@
   "effects": [
     "Decreases damage from swords, unarmed attacks, and more",
     "Multiple levels, each level further decreases damage.",
-    "Requires 1 defense slot"
+    "Requires 1 defense slot per level"
   ]
 }

@@ -1,0 +1,17 @@
+{
+  "type": "tconstruct:item_part_builder",
+  "conditions": [
+    {
+      "value": {
+        "tag": "forge:plates",
+        "type": "forge:tag_empty"
+      },
+      "type": "forge:not"
+    }
+  ],
+  "pattern": "tconstruct:plate",
+  "pattern_item": {
+    "tag": "tconstruct:casts/red_sand"
+  },
+  "result": "tconstruct:plate_red_sand_cast"
+}

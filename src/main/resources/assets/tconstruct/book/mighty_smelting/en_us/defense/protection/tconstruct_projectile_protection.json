@@ -8,6 +8,6 @@
   "effects": [
     "Decreases damages from projectiles",
     "Can apply levels incrementally",
-    "Requires 1 defense slot"
+    "Requires 1 defense slot per level"
   ]
 }

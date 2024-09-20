@@ -10,6 +10,6 @@
     }
   },
   "pattern": {
-    "tag": "tconstruct:patterns"
+    "tag": "tconstruct:patterns/default"
   }
 }

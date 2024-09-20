@@ -10,6 +10,7 @@ import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.crafting.RecipeSerializer;
 import slimeknights.mantle.recipe.data.AbstractRecipeBuilder;
 import slimeknights.mantle.recipe.helper.ItemOutput;
+import slimeknights.tconstruct.library.materials.definition.IMaterial;
 import slimeknights.tconstruct.library.materials.definition.MaterialId;
 import slimeknights.tconstruct.tables.TinkerTables;
 
@@ -19,12 +20,25 @@ import java.util.function.Consumer;
 
 @RequiredArgsConstructor(staticName = "item")
 public class ItemPartRecipeBuilder extends AbstractRecipeBuilder<ItemPartRecipeBuilder> {
-  private final MaterialId materialId;
   private final ResourceLocation pattern;
-  private final int cost;
   private final ItemOutput result;
   @Setter @Accessors(chain = true)
   private Ingredient patternItem;
+  private MaterialId materialId = IMaterial.UNKNOWN_ID;
+  private int cost = 0;
+
+  /** @deprecated use {@link #item(ResourceLocation, ItemOutput)} and {@link #material(MaterialId, int)} */
+  @Deprecated
+  public static ItemPartRecipeBuilder item(MaterialId material, ResourceLocation pattern, int cost, ItemOutput result) {
+    return item(pattern, result).material(material, cost);
+  }
+
+  /** Sets the material Id and cost */
+  public ItemPartRecipeBuilder material(MaterialId material, int cost) {
+    this.materialId = material;
+    this.cost = cost;
+    return this;
+  }
 
   @Override
   public void save(Consumer<FinishedRecipe> consumer) {
@@ -44,12 +58,16 @@ public class ItemPartRecipeBuilder extends AbstractRecipeBuilder<ItemPartRecipeB
 
     @Override
     public void serializeRecipeData(JsonObject json) {
-      json.addProperty("material", materialId.toString());
+      if (!materialId.equals(IMaterial.UNKNOWN_ID)) {
+        json.addProperty("material", materialId.toString());
+      }
       json.addProperty("pattern", pattern.toString());
       if (patternItem != null) {
         json.add("pattern_item", patternItem.toJson());
       }
-      json.addProperty("cost", cost);
+      if (cost > 0) {
+        json.addProperty("cost", cost);
+      }
       json.add("result", result.serialize());
     }
 

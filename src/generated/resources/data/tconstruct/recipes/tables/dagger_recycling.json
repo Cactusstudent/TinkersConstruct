@@ -5,6 +5,6 @@
     "amount_needed": 2
   },
   "pattern": {
-    "tag": "tconstruct:patterns"
+    "tag": "tconstruct:patterns/default"
   }
 }

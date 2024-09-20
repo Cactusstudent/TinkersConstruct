@@ -229,7 +229,7 @@ public final class TinkerWorld extends TinkerModule {
     if (type.isNether()) {
       return new SlimeWartBlock(builder(Material.GRASS, type.getMapColor(), SoundType.WART_BLOCK).strength(1.5F).isValidSpawn((s, w, p, e) -> false), type);
     }
-    return new SlimeLeavesBlock(builder(Material.LEAVES, type.getMapColor(), SoundType.GRASS).strength(1.0f).randomTicks().noOcclusion().isValidSpawn((s, w, p, e) -> false), type);
+    return new SlimeLeavesBlock(builder(Material.LEAVES, type.getMapColor(), SoundType.GRASS).strength(1.0f).randomTicks().noOcclusion().isValidSpawn((s, w, p, e) -> false).isSuffocating(Blocks::never).isViewBlocking(Blocks::never), type);
   }, DEFAULT_BLOCK_ITEM);
 
   // slime vines

@@ -13,6 +13,7 @@ import slimeknights.mantle.recipe.helper.ItemOutput;
 import slimeknights.mantle.recipe.helper.LoggingRecipeSerializer;
 import slimeknights.mantle.util.JsonHelper;
 import slimeknights.tconstruct.common.TinkerTags;
+import slimeknights.tconstruct.library.materials.definition.IMaterial;
 import slimeknights.tconstruct.library.materials.definition.MaterialVariant;
 import slimeknights.tconstruct.library.materials.definition.MaterialVariantId;
 import slimeknights.tconstruct.library.recipe.material.IMaterialValue;
@@ -54,6 +55,10 @@ public class ItemPartRecipe implements IDisplayPartBuilderRecipe {
     }
     // if there is a material item, it must have a valid material and be craftable
     if (!inv.getStack().isEmpty()) {
+      // no material means we expect no stack in the material slot
+      if (material.isEmpty()) {
+        return false;
+      }
       IMaterialValue materialRecipe = inv.getMaterial();
       return materialRecipe != null && material.matchesVariant(materialRecipe.getMaterial());
     }
@@ -63,9 +68,20 @@ public class ItemPartRecipe implements IDisplayPartBuilderRecipe {
 
   @Override
   public boolean matches(IPartBuilderContainer inv, Level worldIn) {
+    if (material.isEmpty()) {
+      return inv.getStack().isEmpty();
+    }
     IMaterialValue materialRecipe = inv.getMaterial();
     return materialRecipe != null && material.matchesVariant(materialRecipe.getMaterial())
            && inv.getStack().getCount() >= materialRecipe.getItemsUsed(cost);
+  }
+
+  @Override
+  public int getItemsUsed(IPartBuilderContainer inv) {
+    if (material.isEmpty()) {
+      return 0;
+    }
+    return IDisplayPartBuilderRecipe.super.getItemsUsed(inv);
   }
 
   @Override
@@ -89,7 +105,6 @@ public class ItemPartRecipe implements IDisplayPartBuilderRecipe {
   public static class Serializer extends LoggingRecipeSerializer<ItemPartRecipe> {
     @Override
     public ItemPartRecipe fromJson(ResourceLocation id, JsonObject json) {
-      MaterialVariantId materialId = MaterialVariantId.fromJson(json, "material");
       Pattern pattern = new Pattern(GsonHelper.getAsString(json, "pattern"));
       Ingredient patternItem;
       if (json.has("pattern_item")) {
@@ -97,7 +112,11 @@ public class ItemPartRecipe implements IDisplayPartBuilderRecipe {
       } else {
         patternItem = Ingredient.of(TinkerTags.Items.DEFAULT_PATTERNS);
       }
-      int cost = GsonHelper.getAsInt(json, "cost");
+      int cost = GsonHelper.getAsInt(json, "cost", 0);
+      MaterialVariantId materialId = IMaterial.UNKNOWN_ID;
+      if (cost > 0) {
+        materialId = MaterialVariantId.fromJson(json, "material");
+      }
       ItemOutput result = ItemOutput.fromJson(JsonHelper.getElement(json, "result"));
       return new ItemPartRecipe(id, materialId, pattern, patternItem, cost, result);
     }

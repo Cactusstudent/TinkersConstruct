@@ -1,0 +1,20 @@
+{
+  "type": "tconstruct:item_part_builder",
+  "conditions": [
+    {
+      "value": {
+        "tag": "forge:gears",
+        "type": "forge:tag_empty"
+      },
+      "type": "forge:not"
+    }
+  ],
+  "pattern": "tconstruct:gear",
+  "pattern_item": {
+    "tag": "forge:sand/colorless"
+  },
+  "result": {
+    "item": "tconstruct:gear_sand_cast",
+    "count": 4
+  }
+}

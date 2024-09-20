@@ -1,0 +1,20 @@
+{
+  "type": "tconstruct:item_part_builder",
+  "conditions": [
+    {
+      "value": {
+        "tag": "forge:coins",
+        "type": "forge:tag_empty"
+      },
+      "type": "forge:not"
+    }
+  ],
+  "pattern": "tconstruct:coin",
+  "pattern_item": {
+    "tag": "forge:sand/colorless"
+  },
+  "result": {
+    "item": "tconstruct:coin_sand_cast",
+    "count": 4
+  }
+}

@@ -7,6 +7,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.util.GsonHelper;
 import net.minecraft.world.item.Item;
+import net.minecraftforge.common.util.Lazy;
 import net.minecraftforge.registries.ForgeRegistries;
 import slimeknights.mantle.util.JsonHelper;
 import slimeknights.tconstruct.TConstruct;
@@ -23,6 +24,7 @@ import slimeknights.tconstruct.plugin.jsonthings.item.FlexModifiableBowItem;
 import slimeknights.tconstruct.plugin.jsonthings.item.FlexModifiableCrossbowItem;
 import slimeknights.tconstruct.plugin.jsonthings.item.FlexModifiableItem;
 import slimeknights.tconstruct.plugin.jsonthings.item.FlexModifiableStaffItem;
+import slimeknights.tconstruct.plugin.jsonthings.item.FlexPartCastItem;
 import slimeknights.tconstruct.plugin.jsonthings.item.FlexRepairKitItem;
 import slimeknights.tconstruct.plugin.jsonthings.item.FlexToolPartItem;
 import slimeknights.tconstruct.tools.item.ArmorSlotType;
@@ -87,7 +89,17 @@ public class FlexItemTypes {
       return (props, builder) -> add(CROSSBOW_ITEMS, new FlexModifiableCrossbowItem(props, ToolDefinition.builder(builder.getRegistryName()).setStatsProvider(statProvider).build(), allowFireworks));
     });
 
-    /* Register a modifiable tool instance for crossbow like items (load on finish) */
+    /* Registries a cast item that shows a part cost in the tooltip */
+    register("part_cast", data -> {
+      // bit redundant to parse the RL part twice, but I don't have a nice util to JSON parse item from a RL. Plus, 1.19.2 already has a better approach
+      JsonHelper.getResourceLocation(data, "part");
+      return (props, builder) -> new FlexPartCastItem(props, builder, Lazy.of(() -> JsonHelper.getAsEntry(ForgeRegistries.ITEMS, data, "part")));
+    });
+
+
+    /* Armor */
+
+    /* Simple armor type with a flat texture */
     register("basic_armor", data -> {
       ResourceLocation name = JsonHelper.getResourceLocation(data, "texture_name");
       boolean dyeable = GsonHelper.getAsBoolean(data, "dyeable", false);

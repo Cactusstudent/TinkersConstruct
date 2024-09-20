@@ -260,6 +260,7 @@
   "item.tconstruct.modifier_crystal.format": "%s Crystal",
   "item.tconstruct.modifier_crystal.missing": "Missing or invalid NBT defining the modifier type",
   "item.tconstruct.modifier_crystal.tooltip": "Apply to a tool to gain 1 level of the modifier, consuming the appropriate slots.",
+  "item.tconstruct.modifier_crystal.modifier_id": "Modifier ID: %s",
 
   "item.tconstruct.creative_slot": "Creative Slot",
   "item.tconstruct.creative_slot.upgrades": "Creative Upgrade",
@@ -275,6 +276,16 @@
 
 
   "_comment": "Tinkers Patterns",
+
+  "pattern.tconstruct.ingot": "Ingot",
+  "pattern.tconstruct.nugget": "Nugget",
+  "pattern.tconstruct.gem": "Gem",
+  "pattern.tconstruct.rod": "Rod",
+
+  "pattern.tconstruct.gear": "Gear",
+  "pattern.tconstruct.plate": "Small Plate",
+  "pattern.tconstruct.coin": "Coin",
+  "pattern.tconstruct.wire": "Wire",
 
   "pattern.tconstruct.repair_kit": "Repair Kit",
 
@@ -307,6 +318,8 @@
 
 
   "_comment": "Tinkers Gold Casts",
+
+  "item.tconstruct.cast.cost": "Material cost: %d",
 
   "item.tconstruct.blank_cast": "Blank Gold Cast",
   "item.tconstruct.ingot_cast": "Ingot Gold Cast",
@@ -1296,25 +1309,25 @@
 
   "block.tconstruct.earth_slime_leaves": "Slimy Leaves",
   "block.tconstruct.sky_slime_leaves": "Slimy Leaves",
-  "block.tconstruct.blood_slime_leaves": "Slimy Wart",
+  "block.tconstruct.blood_slime_leaves": "Bloody Wart",
   "block.tconstruct.ichor_slime_leaves": "Slimy Wart",
   "block.tconstruct.ender_slime_leaves": "Slimy Leaves",
 
   "block.tconstruct.earth_slime_tall_grass": "Tall Slimy Grass",
   "block.tconstruct.sky_slime_tall_grass": "Tall Slimy Grass",
-  "block.tconstruct.blood_slime_tall_grass": "Tall Slimy Grass",
+  "block.tconstruct.blood_slime_tall_grass": "Tall Bloody Grass",
   "block.tconstruct.ichor_slime_tall_grass": "Tall Slimy Grass",
   "block.tconstruct.ender_slime_tall_grass": "Tall Slimy Grass",
 
   "block.tconstruct.earth_slime_fern": "Slimy Fern",
   "block.tconstruct.sky_slime_fern": "Slimy Fern",
-  "block.tconstruct.blood_slime_fern": "Slimy Roots",
+  "block.tconstruct.blood_slime_fern": "Bloody Roots",
   "block.tconstruct.ichor_slime_fern": "Slimy Roots",
   "block.tconstruct.ender_slime_fern": "Slimy Fern",
 
   "block.tconstruct.potted_earth_slime_fern": "Potted Slimy Fern",
   "block.tconstruct.potted_sky_slime_fern": "Potted Slimy Fern",
-  "block.tconstruct.potted_blood_slime_fern": "Potted Slimy Roots",
+  "block.tconstruct.potted_blood_slime_fern": "Potted Bloody Roots",
   "block.tconstruct.potted_ichor_slime_fern": "Potted Slimy Roots",
   "block.tconstruct.potted_ender_slime_fern": "Potted Slimy Fern",
 
@@ -1467,6 +1480,7 @@
   "material.tconstruct.iron.oxidized": "Raw Iron",
   "material.tconstruct.iron.flavor": "Ironic. He could save others from death, but not himself.",
   "material.tconstruct.iron.encyclopedia": "Causes mining blocks and hitting mobs to attract nearby items.",
+  "material.tconstruct.iron.ranged": "Causes firing arrows to attract nearby items to the holder.",
   "material.tconstruct.iron.skull_flavor": "Violation of quarantine",
   "material.tconstruct.iron.skull_encyclopedia": "Melee attacks copy all negative status effects from the wearer to the target",
 
@@ -1788,7 +1802,7 @@
   "modifier.tconstruct.severing.description": "Potentially blasts heads or other parts of targets of melee right off!",
   "modifier.tconstruct.fiery": "Fiery",
   "modifier.tconstruct.fiery.flavor": "Infused with the fires of hell!",
-  "modifier.tconstruct.fiery.description": "Ignites targets of melee attacks and fired arrows",
+  "modifier.tconstruct.fiery.description": "Ignites targets of melee attacks, fired arrows, and counterattacks",
   "modifier.tconstruct.necrotic": "Necrotic",
   "modifier.tconstruct.necrotic.flavor": "Vampiric!",
   "modifier.tconstruct.necrotic.description": "Critical hits on enemies drains their life to heal you",
@@ -1867,7 +1881,7 @@
   "modifier.tconstruct.blindshot.description": "Decreases the accuracy of the weapon",
   "modifier.tconstruct.freezing": "Freezing",
   "modifier.tconstruct.freezing.flavor": "Alright, everyone. Chill!",
-  "modifier.tconstruct.freezing.description": "Causes arrows to freeze the target",
+  "modifier.tconstruct.freezing.description": "Causes melee attacks, fired arrows, and counterattacks to freeze the target",
   "modifier.tconstruct.bulk_quiver": "Bulk Quiver",
   "modifier.tconstruct.bulk_quiver.flavor": "Holding arrows is overrated",
   "modifier.tconstruct.bulk_quiver.description": "Allows the bow to pull arrows from its own inventory when you run out of arrows, access by sneaking and attacking",
@@ -2312,7 +2326,7 @@
   "modifier.tconstruct.crumbling.mining_speed": "Crumbling Speed",
   "modifier.tconstruct.crystalbound": "Crystalbound",
   "modifier.tconstruct.crystalbound.flavor": "The way of the crystal is straight",
-  "modifier.tconstruct.crystalbound.description": "Tool gains bonus velocity, but arrow angle is restricted",
+  "modifier.tconstruct.crystalbound.description": "Bows gain bonus velocity, but arrow angle is restricted",
   "modifier.tconstruct.lightweight": "Lightweight",
   "modifier.tconstruct.lightweight.flavor": "Like a Shardblade!",
   "modifier.tconstruct.lightweight.description": "Tool is incredibly light for its size, allowing you to attack, mine, and launch projectiles faster",
@@ -2716,7 +2730,7 @@
   "recipe.tconstruct.modifier.not_enough_slots": "Need at least %s %s slots to add this modifier",
   "recipe.tconstruct.modifier.validate_slots": "This change leaves the tool with too few %s slots",
   "recipe.tconstruct.modifier.min_level": "This recipe requires the tool to have at least %s level %s to apply",
-  "recipe.tconstruct.modifier.max_level": "%s level cannot be above %s",
+  "recipe.tconstruct.modifier.max_level": "This recipe cannot increase %s above level %s (ignoring traits)",
   "recipe.tconstruct.modifier.requirements_error": "Tool state invalid for one of the modifiers. Contact your modpack maker and request a more descriptive error.",
 
   "recipe.tconstruct.tool_recycling": "Tool Recycling",
@@ -2911,9 +2925,9 @@
   "advancements.tconstruct.smeltery.melter.title": "Basic Meltery",
   "advancements.tconstruct.smeltery.melter.description": "Make a basic melting setup with a melter, a heater or tank, a casting basin, a casting table, and a faucet",
   "advancements.tconstruct.smeltery.sand_casting.title": "Sand Casting",
-  "advancements.tconstruct.smeltery.sand_casting.description": "Make a basic disposable casts out of sand",
+  "advancements.tconstruct.smeltery.sand_casting.description": "Make a basic disposable cast out of sand",
   "advancements.tconstruct.smeltery.gold_casting.title": "Shiny Casts",
-  "advancements.tconstruct.smeltery.gold_casting.description": "Make a reusable casts out of gold",
+  "advancements.tconstruct.smeltery.gold_casting.description": "Make a reusable cast out of gold",
   "advancements.tconstruct.smeltery.cast_collector.title": "Cast Collector",
   "advancements.tconstruct.smeltery.cast_collector.description": "Collect one of each gold cast",
   "advancements.tconstruct.smeltery.mighty_smelting.title": "Smelting 201",
