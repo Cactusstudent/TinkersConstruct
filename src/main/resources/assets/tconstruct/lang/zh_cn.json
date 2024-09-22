@@ -260,6 +260,7 @@
   "item.tconstruct.modifier_crystal.format": "%s水晶",
   "item.tconstruct.modifier_crystal.missing": "定义强化类型的NBT缺失或无效",
   "item.tconstruct.modifier_crystal.tooltip": "加持于工具后对应强化等级增加1级并消耗相应的强化槽",
+  "item.tconstruct.modifier_crystal.modifier_id": "强化ID: %s",
 
   "item.tconstruct.creative_slot": "创造强化槽",
   "item.tconstruct.creative_slot.upgrades": "创造升级槽",
@@ -275,6 +276,15 @@
 
 
   "_comment": "Tinkers Patterns",
+
+  "pattern.tconstruct.ingot": "锭",
+  "pattern.tconstruct.nugget": "粒",
+  "pattern.tconstruct.gem": "宝石",
+  "pattern.tconstruct.rod": "杆",
+  "pattern.tconstruct.gear": "齿轮",
+  "pattern.tconstruct.plate": "小板",
+  "pattern.tconstruct.coin": "币",
+  "pattern.tconstruct.wire": "线",
 
   "pattern.tconstruct.repair_kit": "修补件",
 
@@ -307,6 +317,8 @@
 
 
   "_comment": "Tinkers Gold Casts",
+
+  "item.tconstruct.cast.cost": "材料消耗：%d",
 
   "item.tconstruct.blank_cast": "空白金质铸模",
   "item.tconstruct.ingot_cast": "锭金质铸模",
@@ -1296,25 +1308,25 @@
 
   "block.tconstruct.earth_slime_leaves": "黏液树叶",
   "block.tconstruct.sky_slime_leaves": "黏液树叶",
-  "block.tconstruct.blood_slime_leaves": "黏液疣",
+  "block.tconstruct.blood_slime_leaves": "黏血疣",
   "block.tconstruct.ichor_slime_leaves": "黏液疣",
   "block.tconstruct.ender_slime_leaves": "黏液树叶",
 
   "block.tconstruct.earth_slime_tall_grass": "黏液草丛",
   "block.tconstruct.sky_slime_tall_grass": "黏液草丛",
-  "block.tconstruct.blood_slime_tall_grass": "黏液草丛",
+  "block.tconstruct.blood_slime_tall_grass": "黏血草丛",
   "block.tconstruct.ichor_slime_tall_grass": "黏液草丛",
   "block.tconstruct.ender_slime_tall_grass": "黏液草丛",
 
   "block.tconstruct.earth_slime_fern": "黏液蕨",
   "block.tconstruct.sky_slime_fern": "黏液蕨",
-  "block.tconstruct.blood_slime_fern": "黏液菌索",
+  "block.tconstruct.blood_slime_fern": "黏血菌索",
   "block.tconstruct.ichor_slime_fern": "黏液菌索",
   "block.tconstruct.ender_slime_fern": "黏液蕨",
 
   "block.tconstruct.potted_earth_slime_fern": "黏液蕨盆栽",
   "block.tconstruct.potted_sky_slime_fern": "黏液蕨盆栽",
-  "block.tconstruct.potted_blood_slime_fern": "黏液菌索盆栽",
+  "block.tconstruct.potted_blood_slime_fern": "黏血菌索盆栽",
   "block.tconstruct.potted_ichor_slime_fern": "黏液菌索盆栽",
   "block.tconstruct.potted_ender_slime_fern": "黏液蕨盆栽",
 
@@ -1467,6 +1479,7 @@
   "material.tconstruct.iron.oxidized": "粗铁",
   "material.tconstruct.iron.flavor": "他铁了心要保护别人不死，却不能保护他自己，多么讽刺。",
   "material.tconstruct.iron.encyclopedia": "挖掘方块与攻击生物时吸引周围物品。",
+  "material.tconstruct.iron.ranged": "发射箭矢时吸引周围物品。",
   "material.tconstruct.iron.skull_flavor": "违反隔离条例",
   "material.tconstruct.iron.skull_encyclopedia": "近战攻击会将攻击者携带的所有负面效果复制到攻击目标身上",
 
@@ -1788,7 +1801,7 @@
   "modifier.tconstruct.severing.description": "使被工具击杀的近战目标有概率掉落头颅及其它身体部位！",
   "modifier.tconstruct.fiery": "怒火",
   "modifier.tconstruct.fiery.flavor": "下界烈火灌注其中！",
-  "modifier.tconstruct.fiery.description": "点燃近战或远程攻击的目标",
+  "modifier.tconstruct.fiery.description": "点燃近战、远程以及被动攻击的目标",
   "modifier.tconstruct.necrotic": "噬生",
   "modifier.tconstruct.necrotic.flavor": "吸血鬼！",
   "modifier.tconstruct.necrotic.description": "暴击敌人会榨取他们的生命来滋养你",
@@ -1869,7 +1882,7 @@
   "modifier.tconstruct.freezing.flavor": "冻住不许走！",
   "modifier.tconstruct.freezing.description": "箭矢能使目标进入冰冻状态",
   "modifier.tconstruct.bulk_quiver": "自容箭袋",
-  "modifier.tconstruct.bulk_quiver.flavor": "手持箭也没那么厉害",
+  "modifier.tconstruct.bulk_quiver.flavor": "近战攻击、着火的箭矢以及被动攻击能使目标进入冰冻状态",
   "modifier.tconstruct.bulk_quiver.description": "在你的箭用尽后，弓能从其物品栏中发射箭矢；潜行并按下“攻击”键以访问其物品栏",
   "modifier.tconstruct.trick_quiver": "戏法箭袋",
   "modifier.tconstruct.trick_quiver.flavor": "酷如鹰眼！",
@@ -2312,7 +2325,7 @@
   "modifier.tconstruct.crumbling.mining_speed": "粉碎挖掘速度",
   "modifier.tconstruct.crystalbound": "晶固",
   "modifier.tconstruct.crystalbound.flavor": "水晶之道，是为稳直",
-  "modifier.tconstruct.crystalbound.description": "箭矢获得额外初速度，但其出射角会被限制",
+  "modifier.tconstruct.crystalbound.description": "增加弓的初速度，但限制箭矢的出射角",
   "modifier.tconstruct.lightweight": "轻便",
   "modifier.tconstruct.lightweight.flavor": "就像碎片之刃！",
   "modifier.tconstruct.lightweight.description": "你的工具之轻与其外观形成了令人讶异的对比，无论攻击、采掘还是作发射弹射物之用都非常灵巧",
@@ -2716,7 +2729,7 @@
   "recipe.tconstruct.modifier.not_enough_slots": "至少需要%s个%s槽来添加该强化",
   "recipe.tconstruct.modifier.validate_slots": "这项改动留给工具的%s槽过少",
   "recipe.tconstruct.modifier.min_level": "此配方需要工具加持%s级%s才可使用",
-  "recipe.tconstruct.modifier.max_level": "%s的等级不可大于%s",
+  "recipe.tconstruct.modifier.max_level": "此配方只可将%s等级升至%s（忽略材料特性）",
   "recipe.tconstruct.modifier.requirements_error": "工具的其中一个强化已使该工具状态无效，联系整合包作者以了解详细错误情况。",
 
   "recipe.tconstruct.tool_recycling": "工具回收",

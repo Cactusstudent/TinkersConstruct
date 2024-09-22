@@ -10,22 +10,10 @@ tools.tconstruct.ichor_staff=灵浆手杖
 tools.tconstruct.ender_staff=末影黏液手杖
 armor=盔甲
 
-materials_harvest_1=一级近程材料
-materials_harvest_1.subtext=一级近程材料用于制作近战武器或采掘工具。
-materials_harvest_2=二级近程材料
-materials_harvest_2.subtext=二级近程材料用于制作近战武器或采掘工具。
-materials_harvest_3=三级近程材料
-materials_harvest_3.subtext=三级近程材料用于制作近战武器或采掘工具。
-materials_harvest_4=四级近程材料
-materials_harvest_4.subtext=四级近程材料用于制作近战武器或采掘工具。
-materials_ranged_1=一级远程材料
-materials_ranged_1.subtext=一级远程材料用于制作远程武器。
-materials_ranged_2=二级远程材料
-materials_ranged_2.subtext=二级远程材料用于制作远程武器。
-materials_ranged_3=三级远程材料
-materials_ranged_3.subtext=三级远程材料用于制作远程武器。
-materials_ranged_4=四级远程材料
-materials_ranged_4.subtext=四级远程材料用于制作远程武器。
+materials_harvest=近程材料
+materials_harvest.subtext=这些材料可以锻造出近战武器或采掘工具。
+materials_ranged=远程材料
+materials_ranged.subtext=这些材料可以锻造出远程武器。
 materials_skull=黏液头颅
 materials_skull.subtext=本章节介绍了所有类型的头颅制成的黏液头颅的效果。
 
