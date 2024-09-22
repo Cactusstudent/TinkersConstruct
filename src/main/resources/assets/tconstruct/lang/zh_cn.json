@@ -234,15 +234,15 @@
   "item.tconstruct.slimesteel_reinforcement": "黏钢加固板",
   "item.tconstruct.slimesteel_reinforcement.tooltip": "提升黏钢的容纳力",
   "item.tconstruct.seared_reinforcement": "焦黑加固板",
-  "item.tconstruct.seared_reinforcement.tooltip": "增加盔甲对火焰的防护",
+  "item.tconstruct.seared_reinforcement.tooltip": "提升盔甲对火焰的抗性",
   "item.tconstruct.bronze_reinforcement": "紫水晶青铜加固板",
-  "item.tconstruct.bronze_reinforcement.tooltip": "增加盔甲对弹射物的防护",
+  "item.tconstruct.bronze_reinforcement.tooltip": "提升盔甲对弹射物的抗性",
   "item.tconstruct.gold_reinforcement": "金加固板",
-  "item.tconstruct.gold_reinforcement.tooltip": "增加盔甲对魔法伤害的防护",
+  "item.tconstruct.gold_reinforcement.tooltip": "提升盔甲对魔法伤害的抗性",
   "item.tconstruct.emerald_reinforcement": "绿宝石加固板",
-  "item.tconstruct.emerald_reinforcement.tooltip": "增加盔甲对爆炸的防护",
+  "item.tconstruct.emerald_reinforcement.tooltip": "提升盔甲对爆炸的抗性",
   "item.tconstruct.cobalt_reinforcement": "钴加固板",
-  "item.tconstruct.cobalt_reinforcement.tooltip": "增加盔甲对普通攻击的防护",
+  "item.tconstruct.cobalt_reinforcement.tooltip": "提升盔甲对普通攻击的抗性",
   "item.tconstruct.jeweled_apple": "宝钻苹果",
   "item.tconstruct.silky_cloth": "丝绢",
   "item.tconstruct.silky_cloth.tooltip": "防止工具损伤方块掉落物",
@@ -271,7 +271,7 @@
   "item.tconstruct.creative_slot.tooltip": "为工具增加1个额外的%s槽",
 
   "item.tconstruct.copper_can": "铜罐",
-  "item.tconstruct.copper_can.tooltip": "可堆叠的流体容器，能够盛装90mB（1锭）的流体",
+  "item.tconstruct.copper_can.tooltip": "可堆叠的流体容器，能够盛装1锭的流体",
   "item.tconstruct.copper_can.contents": "存有：%s（1锭）",
 
 
@@ -1039,45 +1039,45 @@
   "block.tconstruct.grout.tooltip": "我是一块砖！……",
 
   "block.tconstruct.seared_stone": "焦黑石头",
-  "block.tconstruct.seared_stone.tooltip": "构造冶炼炉的建材",
+  "block.tconstruct.seared_stone.tooltip": "搭建冶炼炉的建材",
   "block.tconstruct.seared_stone_slab": "焦黑石头台阶",
   "block.tconstruct.seared_stone_stairs": "焦黑石头楼梯",
 
   "block.tconstruct.seared_cobble": "焦黑圆石",
-  "block.tconstruct.seared_cobble.tooltip": "构造冶炼炉的建材",
+  "block.tconstruct.seared_cobble.tooltip": "搭建冶炼炉的建材",
   "block.tconstruct.seared_cobble_slab": "焦黑圆石台阶",
   "block.tconstruct.seared_cobble_stairs": "焦黑圆石楼梯",
   "block.tconstruct.seared_cobble_wall": "焦黑圆石墙",
 
   "item.tconstruct.seared_brick": "焦黑砖",
   "block.tconstruct.seared_bricks": "焦黑砖块",
-  "block.tconstruct.seared_bricks.tooltip": "构造冶炼炉的建材",
+  "block.tconstruct.seared_bricks.tooltip": "搭建冶炼炉的建材",
   "block.tconstruct.seared_bricks_slab": "焦黑砖块台阶",
   "block.tconstruct.seared_bricks_stairs": "焦黑砖块楼梯",
   "block.tconstruct.seared_bricks_wall": "焦黑砖块墙",
 
   "block.tconstruct.seared_paver": "焦黑地砖",
-  "block.tconstruct.seared_paver.tooltip": "构造冶炼炉的建材",
+  "block.tconstruct.seared_paver.tooltip": "搭建冶炼炉的建材",
   "block.tconstruct.seared_paver_slab": "焦黑地砖台阶",
   "block.tconstruct.seared_paver_stairs": "焦黑地砖楼梯",
 
   "block.tconstruct.seared_cracked_bricks": "裂纹焦黑砖块",
-  "block.tconstruct.seared_cracked_bricks.tooltip": "构造冶炼炉的建材",
+  "block.tconstruct.seared_cracked_bricks.tooltip": "搭建冶炼炉的建材",
   "block.tconstruct.seared_fancy_bricks": "精致焦黑砖块",
-  "block.tconstruct.seared_fancy_bricks.tooltip": "构造冶炼炉的建材",
+  "block.tconstruct.seared_fancy_bricks.tooltip": "搭建冶炼炉的建材",
   "block.tconstruct.seared_triangle_bricks": "三角纹焦黑砖块",
-  "block.tconstruct.seared_triangle_bricks.tooltip": "构造冶炼炉的建材",
+  "block.tconstruct.seared_triangle_bricks.tooltip": "搭建冶炼炉的建材",
 
   "block.tconstruct.seared_glass": "焦黑玻璃",
-  "block.tconstruct.seared_glass.tooltip": "构造冶炼炉的建材\n无法储存液体",
+  "block.tconstruct.seared_glass.tooltip": "搭建冶炼炉的建材\n无法储存液体",
   "block.tconstruct.seared_soul_glass": "焦黑灵魂玻璃",
-  "block.tconstruct.seared_soul_glass.tooltip": "构造冶炼炉的建材\n无法储存液体，但可以从中穿过。",
+  "block.tconstruct.seared_soul_glass.tooltip": "搭建冶炼炉的建材\n无法储存液体，但可以从中穿过。",
   "block.tconstruct.seared_tinted_glass": "焦黑遮光玻璃",
-  "block.tconstruct.seared_tinted_glass.tooltip": "构造冶炼炉的建材\n无法存储流体，且无法透光。",
+  "block.tconstruct.seared_tinted_glass.tooltip": "搭建冶炼炉的建材\n无法存储流体，且无法透光。",
   "block.tconstruct.seared_glass_pane": "焦黑玻璃板",
-  "block.tconstruct.seared_glass_pane.tooltip": "无法用于构造冶炼炉",
+  "block.tconstruct.seared_glass_pane.tooltip": "无法用于搭建冶炼炉",
   "block.tconstruct.seared_soul_glass_pane": "焦黑灵魂玻璃板",
-  "block.tconstruct.seared_soul_glass_pane.tooltip": "无法用于构造冶炼炉，但可以从中穿过。",
+  "block.tconstruct.seared_soul_glass_pane.tooltip": "无法用于搭建冶炼炉，但可以从中穿过。",
 
   "block.tconstruct.seared_ladder": "焦黑梯子",
   "block.tconstruct.seared_ladder.tooltip": "可供攀爬的冶炼炉建材",
@@ -1111,7 +1111,7 @@
   "gui.tconstruct.melting.used": "已用：",
 
   "block.tconstruct.seared_heater": "焦黑加热器",
-  "block.tconstruct.seared_heater.tooltip": "利用固态燃料为熔化炉提供热源",
+  "block.tconstruct.seared_heater.tooltip": "利用固体燃料为熔化炉提供热源",
   "gui.tconstruct.heater": "加热器",
 
   "block.tconstruct.smeltery_controller": "冶炼炉控制器",
@@ -1132,35 +1132,35 @@
   "block.tconstruct.nether_grout.tooltip": "……哪里需要哪里搬！……",
 
   "block.tconstruct.scorched_stone": "焦褐石头",
-  "block.tconstruct.scorched_stone.tooltip": "构造熔铸炉的建材",
+  "block.tconstruct.scorched_stone.tooltip": "搭建熔铸炉的建材",
   "block.tconstruct.polished_scorched_stone": "磨制焦褐石头",
-  "block.tconstruct.polished_scorched_stone.tooltip": "构造熔铸炉的建材",
+  "block.tconstruct.polished_scorched_stone.tooltip": "搭建熔铸炉的建材",
 
   "item.tconstruct.scorched_brick": "焦褐砖",
   "block.tconstruct.scorched_bricks": "焦褐砖块",
-  "block.tconstruct.scorched_bricks.tooltip": "构造熔铸炉的建材",
+  "block.tconstruct.scorched_bricks.tooltip": "搭建熔铸炉的建材",
   "block.tconstruct.scorched_bricks_slab": "焦褐砖块台阶",
   "block.tconstruct.scorched_bricks_stairs": "焦褐砖块楼梯",
   "block.tconstruct.scorched_bricks_fence": "焦褐砖块栅栏",
 
   "block.tconstruct.scorched_road": "焦褐石径",
-  "block.tconstruct.scorched_road.tooltip": "构造熔铸炉的建材",
+  "block.tconstruct.scorched_road.tooltip": "搭建熔铸炉的建材",
   "block.tconstruct.scorched_road_slab": "焦褐石径台阶",
   "block.tconstruct.scorched_road_stairs": "焦褐石径楼梯",
 
   "block.tconstruct.chiseled_scorched_bricks": "錾制焦褐砖块",
-  "block.tconstruct.chiseled_scorched_bricks.tooltip": "构造熔铸炉的建材",
+  "block.tconstruct.chiseled_scorched_bricks.tooltip": "搭建熔铸炉的建材",
 
   "block.tconstruct.scorched_glass": "焦褐玻璃",
-  "block.tconstruct.scorched_glass.tooltip": "构造熔铸炉的建材\n无法存储流体",
+  "block.tconstruct.scorched_glass.tooltip": "搭建熔铸炉的建材\n无法存储流体",
   "block.tconstruct.scorched_soul_glass": "焦褐灵魂玻璃",
-  "block.tconstruct.scorched_soul_glass.tooltip": "构造熔铸炉的建材\n无法存储流体，但可以从中穿过。",
+  "block.tconstruct.scorched_soul_glass.tooltip": "搭建熔铸炉的建材\n无法存储流体，但可以从中穿过。",
   "block.tconstruct.scorched_tinted_glass": "焦褐遮光玻璃",
-  "block.tconstruct.scorched_tinted_glass.tooltip": "构造熔铸炉的建材\n无法存储流体，且无法透光。",
+  "block.tconstruct.scorched_tinted_glass.tooltip": "搭建熔铸炉的建材\n无法存储流体，且无法透光。",
   "block.tconstruct.scorched_glass_pane": "焦褐玻璃板",
-  "block.tconstruct.scorched_glass_pane.tooltip": "无法用于构造熔铸炉",
+  "block.tconstruct.scorched_glass_pane.tooltip": "无法用于搭建熔铸炉",
   "block.tconstruct.scorched_soul_glass_pane": "焦褐灵魂玻璃板",
-  "block.tconstruct.scorched_soul_glass_pane.tooltip": "无法用于构造熔铸炉，但可以从中穿过。",
+  "block.tconstruct.scorched_soul_glass_pane.tooltip": "无法用于搭建熔铸炉，但可以从中穿过。",
   
   "block.tconstruct.scorched_ladder": "焦褐梯子",
   "block.tconstruct.scorched_ladder.tooltip": "可供攀爬的冶炼炉建材",
@@ -1170,9 +1170,9 @@
   "block.tconstruct.scorched_fuel_gauge": "焦褐燃料量器",
   "block.tconstruct.scorched_fuel_gauge.tooltip": "备用的熔铸炉储罐\n被破坏时仍能保留其中的液体",
   "block.tconstruct.scorched_ingot_tank": "焦褐材料储罐",
-  "block.tconstruct.scorched_ingot_tank.tooltip": "理想的液态金属容器，能存储相当于48锭熔融方块的流体\n被破坏时仍能保留其中的液体",
+  "block.tconstruct.scorched_ingot_tank.tooltip": "理想的液态金属容器，能存储相当于48锭量的流体\n被破坏时仍能保留其中的液体",
   "block.tconstruct.scorched_ingot_gauge": "焦褐材料量器",
-  "block.tconstruct.scorched_ingot_gauge.tooltip": "理想的液态金属容器，能存储相当于48锭熔融方块的流体\n被破坏时仍能保留其中的液体",
+  "block.tconstruct.scorched_ingot_gauge.tooltip": "理想的液态金属容器，能存储相当于48锭量的流体\n被破坏时仍能保留其中的液体",
   "block.tconstruct.scorched_lantern": "焦褐灯笼",
   "block.tconstruct.scorched_lantern.tooltip": "理想的装饰建材，能存储50mB的流体\n被破坏时仍能保留其中的液体",
 
@@ -1433,12 +1433,12 @@
   "material.tconstruct.rock.blackstone": "黑石",
   "material.tconstruct.rock.deepslate": "深板岩",
   "material.tconstruct.rock.flavor": "保证坚如磐石",
-  "material.tconstruct.rock.encyclopedia": "按已消耗耐久度和材料特性等级的积的平方根的一半加快工具的挖掘速度",
+  "material.tconstruct.rock.encyclopedia": "按已消耗耐久度与材料特性等级积的平方根的一半加快工具的挖掘速度",
 
   "material.tconstruct.flint": "燧石",
   "material.tconstruct.flint.basalt": "玄武岩",
   "material.tconstruct.flint.flavor": "点燃你滚烫的工匠之心！",
-  "material.tconstruct.flint.encyclopedia": "按已消耗耐久度和材料特性等级的积的平方根的四分之一增加工具的伤害",
+  "material.tconstruct.flint.encyclopedia": "按已消耗耐久度与材料特性等级积的平方根的四分之一增加工具的伤害",
 
   "material.tconstruct.bone": "骨头",
   "material.tconstruct.bone.flavor": "吾为所持剑之骨",
@@ -1515,7 +1515,7 @@
 
   "material.tconstruct.rose_gold": "玫瑰金",
   "material.tconstruct.rose_gold.flavor": "免责声明：不是真的用玫瑰做的。",
-  "material.tconstruct.rose_gold.encyclopedia": "每级增加1个额外的升级槽",
+  "material.tconstruct.rose_gold.encyclopedia": "每个玫瑰金部件增加1个额外的升级槽",
   "material.tconstruct.rose_gold.skull_flavor": "把那件臂铠拿来物尽其用",
   "material.tconstruct.rose_gold.skull_encyclopedia": "最大生命值增加1颗心。每穿戴有一件金盔甲，额外增加1颗心。",
 
@@ -1544,7 +1544,7 @@
   "material.tconstruct.amethyst_bronze.ranged": "每级初速度+0.1，但同时限定箭矢出射方向；前三级分别将方向限定为32、16、8向",
 
   "material.tconstruct.pig_iron": "生铁",
-  "material.tconstruct.pig_iron.flavor": "这是最强材料，不接受反驳。",
+  "material.tconstruct.pig_iron.flavor": "这是最佳材料，不接受反驳。",
   "material.tconstruct.pig_iron.encyclopedia": "可以吃，食用后每级增加1点饥饿值和0.1点饱和度",
   "material.tconstruct.pig_iron.skull_flavor": "惹恼我可没有好下场！",
   "material.tconstruct.pig_iron.skull_encyclopedia": "受到来自其他生物的伤害时获得15秒力量效果",
@@ -1554,14 +1554,14 @@
   "material.tconstruct.darkthread.encyclopedia": "增加生物掉落物的掉落概率，可与“幸运”同时存在",
   "material.tconstruct.darkthread.ranged": "增加箭矢所击杀生物掉落物的掉落概率",
   "material.tconstruct.darkthread.skull_flavor": "高智商战斗必备，对那些需要痛饮来决对错的决斗来说更是如此。",
-  "material.tconstruct.darkthread.skull_encyclopedia": "使穿戴者免疫中毒，但不会移除已有的中毒效果",
+  "material.tconstruct.darkthread.skull_encyclopedia": "使穿戴者免疫中毒效果，但不会移除已有的中毒效果",
 
 
   "__comment": "Tier Nether Materials",
   "material.tconstruct.cobalt": "钴",
   "material.tconstruct.cobalt.flavor": "雄关漫道真如钴，而今回首从头迈。",
-  "material.tconstruct.cobalt.encyclopedia": "每级的攻击速度和挖掘速度+7%",
-  "material.tconstruct.cobalt.ranged": "每级的拉弓速度和初速度+5%",
+  "material.tconstruct.cobalt.encyclopedia": "每级攻击速度和挖掘速度+7%",
+  "material.tconstruct.cobalt.ranged": "每级拉弓速度和初速度+5%",
 
   "material.tconstruct.manyullyn": "玛玉灵",
   "material.tconstruct.manyullyn.flavor": "没几个工匠能叫对这材料的名字。他们说这个材料能够斩断星辰。",
@@ -1579,9 +1579,9 @@
 
   "material.tconstruct.blazing_bone": "烈焰之骨",
   "material.tconstruct.blazing_bone.flavor": "获取下界要塞的所有力量——烈焰之力与骨之力",
-  "material.tconstruct.blazing_bone.encyclopedia": "在火焰中每秒伤害+1%，熔岩中15秒伤害至多+15%。若有抗火效果会减少加成。",
-  "material.tconstruct.blazing_bone.ranged": "在火焰中每秒箭矢伤害+1%，熔岩中15秒伤害至多+15%。若有抗火效果会减少加成。",
-  "material.tconstruct.blazing_bone.skull_flavor": "我给他们说了，这东西技术上来说其实是吐火，不是喷火。但是很显然，我发明的东西我却没有命名权",
+  "material.tconstruct.blazing_bone.encyclopedia": "在火焰中每秒伤害+1%，在熔岩中15秒伤害至多+15%。若有抗火效果会减少加成。",
+  "material.tconstruct.blazing_bone.ranged": "在火焰中每秒箭矢伤害+1%，在熔岩中15秒伤害至多+15%。若有抗火效果会减少加成。",
+  "material.tconstruct.blazing_bone.skull_flavor": "我给他们说了，这东西从技术层面来说其实是吐火，不是喷火。但是很显然，我发明的东西我却没有命名权",
   "material.tconstruct.blazing_bone.skull_encyclopedia": "能够以火球的形式从物品栏中发射火焰弹。冷却时间5秒，不能在水下使用",
 
   "material.tconstruct.soulsteel": "魂钢",
@@ -1604,7 +1604,7 @@
   "material.tconstruct.glass.skull_encyclopedia": "按住“头盔交互”键会使穿戴者爆炸",
 
   "material.tconstruct.ender_pearl": "末影珍珠",
-  "material.tconstruct.ender_pearl.skull_flavor": "末影人懂得如何回避危险，还有科学家。他们几个礼拜以来一直漠视我的采访邀请！",
+  "material.tconstruct.ender_pearl.skull_flavor": "末影人懂得如何回避危险，科学家也是。他们几个礼拜以来一直漠视我的采访邀请！",
   "material.tconstruct.ender_pearl.skull_encyclopedia": "受到弹射物攻击时自动传送，受到近战攻击时有一定概率随机传送。冷却时间15秒",
 
   "material.tconstruct.rotten_flesh": "腐肉",
@@ -1647,8 +1647,8 @@
 
   "material.tconstruct.platinum": "铂",
   "material.tconstruct.platinum.flavor": "它是胜利者的专属",
-  "material.tconstruct.platinum.encyclopedia": "挖掘矿石时，额外掉落2-6个金属粒，掉落金属粒的数量随强化等级增加而增加",
-  "material.tconstruct.platinum.ranged": "命中远处怪物时，有5%概率掉落金属粒。50格及以上掉落铂粒，40格掉落金粒，30格掉落铁粒，20格掉落铜粒。",
+  "material.tconstruct.platinum.encyclopedia": "挖掘矿石时，额外掉落2-6个金属粒，等级越高掉落金属粒的数量越多",
+  "material.tconstruct.platinum.ranged": "命中远处怪物时，有5%概率掉落金属粒。距离50格及以上掉落铂粒，40格掉落金粒，30格掉落铁粒，20格掉落铜粒。",
 
   "material.tconstruct.lead": "铅",
   "material.tconstruct.lead.flavor": "可以试试用这东西做个三明治",
@@ -1657,8 +1657,8 @@
 
   "material.tconstruct.silver": "银",
   "material.tconstruct.silver.flavor": "你知道的，这东西没几天就不再闪闪发光了。",
-  "material.tconstruct.silver.encyclopedia": "对亡灵生物每级伤害+2.5",
-  "material.tconstruct.silver.ranged": "对亡灵生物每级弹射物力量+0.5",
+  "material.tconstruct.silver.encyclopedia": "每级对亡灵生物伤害+2.5",
+  "material.tconstruct.silver.ranged": "每级对亡灵生物弹射物力量+0.5",
 
   "material.tconstruct.whitestone": "白石",
   "material.tconstruct.whitestone.end": "末地石",
@@ -1694,7 +1694,7 @@
   "material.tconstruct.electrum": "琥珀金",
   "material.tconstruct.electrum.flavor": "适用于电子元器件。",
   "material.tconstruct.electrum.encyclopedia": "挖掘方块或击杀怪物时，每级经验掉落+50%",
-  "material.tconstruct.electrum.ranged": "以箭矢击杀怪物时，每级经验掉落+50%",
+  "material.tconstruct.electrum.ranged": "用箭矢击杀怪物时，每级经验掉落+50%",
 
   "material.tconstruct.necronium": "辐射之骨",
   "material.tconstruct.necronium.flavor": "这么多的辐射，很可能标志着你为数不多的生命只剩下四分之一了",
@@ -2657,7 +2657,7 @@
   "gui.tconstruct.part_builder.info": "在这里你能制作工具部件，从而实现你的工匠之梦。\n\n要制作一个工具部件，你需要将模具放入左侧的空槽，并选择目标部件类型。接着在右侧的槽中放入材料，即可制成对应材料的对应部件。",
   "gui.tconstruct.part_builder.material_value": "材料值：%s",
   "gui.tconstruct.part_builder.cost": "模具消耗：%s",
-  "gui.tconstruct.part_builder.trait": "特性",
+  "gui.tconstruct.part_builder.trait": "材料特性",
   "gui.tconstruct.part_builder.uncraftable": "无法打造",
   "gui.tconstruct.part_builder.uncraftable.tooltip": "部件制造台无法打造该材料。需使用浇注等方式进行部件成型。",
 
@@ -2667,12 +2667,12 @@
 
   "gui.tconstruct.tinker_station": "工匠站",
   "gui.tconstruct.tinker_station.repair_limited": "修复与强化",
-  "gui.tconstruct.tinker_station.repair_limited.description": "可以制作基本工具，或者应用大多数强化。在左侧点击一个按钮来开始制作吧。",
+  "gui.tconstruct.tinker_station.repair_limited.description": "可以制作基本工具，或者加持大多数强化。在左侧点击一个按钮来开始制作吧。",
   "gui.tconstruct.tinker_station.repair": "修复与强化",
-  "gui.tconstruct.tinker_station.repair.description": "无论是制作小型还是宽型工具，都可以如你所愿地强化工具！从左侧点击一个按钮来开始制作吧。",
-  "gui.tconstruct.tinker_station.modifiers": "强化属性",
+  "gui.tconstruct.tinker_station.repair.description": "无论是制作小型还是宽型工具，都可以如你所愿地强化工具！在左侧点击一个按钮来开始制作吧。",
+  "gui.tconstruct.tinker_station.modifiers": "强化",
   "gui.tconstruct.tinker_station.upgrades": "升级与能力",
-  "gui.tconstruct.tinker_station.traits": "特性",
+  "gui.tconstruct.tinker_station.traits": "材料特性",
   "gui.tconstruct.tinker_station.components": "组成部件",
   "gui.tconstruct.tinker_station.info": "修复和改装你工具的主要手段。在左侧放置工具和材料即可开始。",
   "gui.tconstruct.tinker_station.no_traits": "无 :[",
@@ -2687,7 +2687,7 @@
 
   "gui.tconstruct.modifier_worktable": "强化调配台",
   "gui.tconstruct.modifier_worktable.title": "强化调配",
-  "gui.tconstruct.modifier_worktable.info": "添加工具和正确的配方物品以调配此工具的强化。",
+  "gui.tconstruct.modifier_worktable.info": "放置工具和正确的配方物品以调配此工具的强化。",
   "recipe.tconstruct.modifier_set_worktable.empty": "工具没有可调配的强化",
 
   "recipe.tconstruct.remove_modifier.title": "强化移除",
@@ -2705,9 +2705,9 @@
 
   "modifier.tconstruct.attack_toggled": "%s（攻击键）",
   "recipe.tconstruct.attack_modifiers.adding.title": "交互切换",
-  "recipe.tconstruct.attack_modifiers.adding.description": "将交互强化的触发键位更改至攻击键",
+  "recipe.tconstruct.attack_modifiers.adding.description": "将交互强化的触发键位更改至“攻击”键",
   "recipe.tconstruct.attack_modifiers.removing.title": "交互切换",
-  "recipe.tconstruct.attack_modifiers.removing.description": "将交互强化的触发键位更改至交互键",
+  "recipe.tconstruct.attack_modifiers.removing.description": "将交互强化的触发键位更改至“交互”键",
 
   "recipe.tconstruct.extract_modifier.title": "强化提取",
   "recipe.tconstruct.extract_modifier.description": "选择要提取到强化水晶上的强化，将返还消耗的强化槽，但加持强化所消耗的物品会消失。",
@@ -2723,10 +2723,10 @@
   "recipe.tconstruct.enchantment_converting.no_enchantments": "物品没有任何可提取的魔咒",
   "recipe.tconstruct.enchantment_converting.too_few": "需要更多的配方物品以转换更高等级的魔咒",
   
-  "recipe.tconstruct.part_swapping.too_many_parts": "该工具无法在此切换部件",
+  "recipe.tconstruct.part_swapping.too_many_parts": "该工具无法在此替换部件",
 
-  "recipe.tconstruct.modifier.not_enough_slot": "至少需要1个%s槽来添加该强化",
-  "recipe.tconstruct.modifier.not_enough_slots": "至少需要%s个%s槽来添加该强化",
+  "recipe.tconstruct.modifier.not_enough_slot": "至少需要1个%s槽来加持该强化",
+  "recipe.tconstruct.modifier.not_enough_slots": "至少需要%s个%s槽来加持该强化",
   "recipe.tconstruct.modifier.validate_slots": "这项改动留给工具的%s槽过少",
   "recipe.tconstruct.modifier.min_level": "此配方需要工具加持%s级%s才可使用",
   "recipe.tconstruct.modifier.max_level": "此配方只可将%s等级升至%s（忽略材料特性）",
@@ -2804,8 +2804,8 @@
   "command.tconstruct.modifier_usage": "已成功将强化说明打印至游戏日志中",
   "command.tconstruct.modifier_priority": "已成功将强化排序优先级打印至游戏日志中",
 
-  "command.tconstruct.modifiers.success.add.single": "为%2$s的物品添加%1$s强化",
-  "command.tconstruct.modifiers.success.add.multiple": "为%2$s个实体添加%1$s强化",
+  "command.tconstruct.modifiers.success.add.single": "为%2$s的物品加持%1$s强化",
+  "command.tconstruct.modifiers.success.add.multiple": "为%2$s个实体加持%1$s强化",
   "command.tconstruct.modifiers.success.remove.single": "移除%2$s的物品的%1$s强化",
   "command.tconstruct.modifiers.success.remove.multiple": "移除%2$s个实体的%1$s强化",
   "command.tconstruct.modifiers.failure.too_few_levels": "无法移除%2$s的物品的%1$s强化",
@@ -2868,8 +2868,8 @@
   "jei.tconstruct.foundry.title": "熔铸炉",
 
   "jei.tconstruct.entity_melting.title": "实体熔炼",
-  "jei.tconstruct.entity_melting.per_hearts": "每%s颗心伤害",
-  "jei.tconstruct.entity_melting.per_heart": "每1颗心伤害",
+  "jei.tconstruct.entity_melting.per_hearts": "每伤害%s颗心",
+  "jei.tconstruct.entity_melting.per_heart": "每伤害1颗心",
 
   "jei.tconstruct.alloy.title": "合金",
 
@@ -2880,7 +2880,7 @@
   "jei.tconstruct.modifiers.incremental": "这个配方是递进配方，可消耗配方的部分对应材料获得部分强化",
   "jei.tconstruct.modifiers.max": "最大次数：",
 
-  "jei.tconstruct.severing.title": "肢解掉落物",
+  "jei.tconstruct.severing.title": "肢解",
 
   "jei.tconstruct.part_builder.title": "部件制造台",
   "jei.tconstruct.part_builder.cost": "花费：%s",
